@@ -13,7 +13,7 @@ class DataTypes {
             this.age = age;
         }
 
-        public void Squawk() {
+        public void squawk() {
             System.out.println("Rawr! Fear me hoomans!");
         }
     }
@@ -63,5 +63,8 @@ class DataTypes {
 
         // Prints "Peanut"
         System.out.println(myOtherReferenceToSameParrot.name);
+
+        // Prints "Rawr! Fear me hoomans!"
+        myOtherReferenceToSameParrot.squawk();
     }
 }
